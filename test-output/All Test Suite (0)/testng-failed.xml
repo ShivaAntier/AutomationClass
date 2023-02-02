@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [All Test Suite (0)]">
+  <test thread-count="5" name="C:/Users/user/IdeaProjects/TestingAgain(failed)">
+    <classes>
+      <class name="CoinGeb.LoginExcel">
+        <methods>
+          <include name="read_data"/>
+          <include name="trading"/>
+        </methods>
+      </class> <!-- CoinGeb.LoginExcel -->
+    </classes>
+  </test> <!-- C:/Users/user/IdeaProjects/TestingAgain(failed) -->
+</suite> <!-- Failed suite [All Test Suite (0)] -->

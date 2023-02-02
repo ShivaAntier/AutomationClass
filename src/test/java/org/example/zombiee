@@ -1,0 +1,21 @@
+JavascriptExecutor js= (JavascriptExecutor) driver;
+js.executeScript("alert('hello world');");
+js.executeScript("window.scrollBy(0,600)";
+String DomainName = js.executeScript("return document.domain;").toString();
+String url = js.executeScript("return document.URL;").toString();
+String TitleName = js.executeScript("return document.title;").toString();
+js.executeScript("window.location = 'http://demo.guru99.com/'");
+
+
+WindowHandles
+
+String firstWindow = driver.getWindowHandle();
+Set<String> windows = driver.getWindowHandles();
+Iterator<String> itr = windows.iterator();
+String window = itr.next();
+driver.switchTo().window(window);
+
+String firstWindow = driver.getWindowHandle();
+ArrayList<String> arr = new ArrayList(driver.getWindowHandles());
+System.out.println(arr);
+driver.switchTo().window(arr.get(1));
