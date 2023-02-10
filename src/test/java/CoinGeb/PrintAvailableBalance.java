@@ -31,7 +31,15 @@ public class PrintAvailableBalance {
     @Test(priority = 3)
     void enterEmailPass() throws InterruptedException {
         driver.findElement(By.xpath("//input[@placeholder='Email']")).sendKeys("shiva.mahajan@antiersolutions.com");
+    }
+
+    @Test(priority = 4)
+    void enterPass() throws InterruptedException {
         driver.findElement(By.xpath("//input[@placeholder='Password']")).sendKeys("Test@123");
+    }
+
+    @Test(priority = 4)
+    void ClickonLoginButtonAfterEntringValidDetails() throws InterruptedException {
         Thread.sleep(15000);
         driver.findElement(By.xpath("//button[text()='Log In']")).click();
     }

@@ -18,6 +18,7 @@ public class EmailSend {
 
         // Recipient's email ID needs to be mentioned.
         urls url = new urls();
+        url.test();
         String message = "this is url 1 "+url.url1+"and this is url 2 "+url.url2;
 
         String sub = "Testing";

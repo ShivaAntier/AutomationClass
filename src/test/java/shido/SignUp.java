@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 public class SignUp extends BaseClass {
     @Test(priority = 1, enabled = true)
     void openUrl() {
-        super.OpenBrowser();
+//        super.OpenBrowser();
         driver.get("https://qa.jetnft.in/signup");
     }
 
